@@ -244,7 +244,6 @@ public with sharing class TriggerBestPracticeTest {
         // Assert that the Contacts no contacts exists
         System.assertEquals(0, updatedContacts.size(), 'Contacts should not exist.');
     }
-
     //Part 2 - AnotherOpportunityTrigger Refactor
     /*
     * AnotherOpportunityTrigger was created by a previous developer and is causing some issues.
